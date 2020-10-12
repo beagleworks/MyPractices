@@ -9,7 +9,11 @@
 			"iostream": "cpp",
 			"ostream": "cpp",
 			"random": "cpp",
-			"iomanip": "cpp"
+			"iomanip": "cpp",
+			"unordered_map": "cpp",
+			"cmath": "cpp",
+			"complex": "cpp",
+			"regex": "cpp"
 		}
 	}
 }
