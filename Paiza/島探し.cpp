@@ -1,4 +1,5 @@
 /*
+Rank S
 All test cases passed
 checkは四方のマスを調べる関数
 */

@@ -32,6 +32,6 @@
 *.app
 
 # My Custom
-/PaizaChallenges/
+/paizaChallenges/
 /mylib/
 test*.cpp
