@@ -36,3 +36,6 @@
 /mylib/
 test*.cpp
 AtCoder/tempCodeRunnerFil*
+
+# current
+/paiza/
