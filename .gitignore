@@ -32,11 +32,9 @@
 *.app
 
 # My Custom
-/paizaChallenges/
-/mylib/
 test*.cpp
 AtCoder/tempCodeRunnerFil*
 
 # Now testing
-/paiza/
 AtCoder/incomplete/
+mylibs
