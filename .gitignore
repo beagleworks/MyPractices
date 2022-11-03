@@ -32,8 +32,9 @@
 *.app
 
 # My Custom
-test*.cpp
+test*.*
 AtCoder/tempCodeRunnerFil*
+*.out
 
 # Now testing
 AtCoder/incomplete/
