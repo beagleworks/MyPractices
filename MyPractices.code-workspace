@@ -81,7 +81,8 @@
 			"valarray": "cpp",
 			"variant": "cpp",
 			"span": "cpp",
-			"abc261acpp": "cpp"
+			"abc261acpp": "cpp",
+			"ranges": "cpp"
 		}
 	}
 }

@@ -1,8 +1,11 @@
+// ABC079A
+// https://atcoder.jp/contests/abc079/tasks/abc079_a
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ALL(a) (a).begin(), (a).end()
 const int INF = 1e9;
-const int MOD = 1e9 + 7;
+const int MOD = 998244353;
 const long long LINF = 1e18;
 
 int main(){
@@ -11,16 +14,12 @@ int main(){
   cin.tie(nullptr);
 
   // input
-  vector<int> f(100);
-  for (auto& x: f) cin >> x;
+  string n;
+  cin >> n;
 
   // solve
-  for (int i=0; i<100; i++){
-    int pt;
-    cin >> pt;
-    cout << "R" << endl;
-  }
-
+  if ((n[1] == n[2]) && ((n[0] == n[1]) || (n[2] == n[3]))) cout << "Yes" << endl;
+  else cout << "No" << endl;
   return 0;
   
 }
