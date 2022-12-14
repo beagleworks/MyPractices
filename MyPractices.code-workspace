@@ -82,7 +82,17 @@
 			"variant": "cpp",
 			"span": "cpp",
 			"abc261acpp": "cpp",
-			"ranges": "cpp"
+			"ranges": "cpp",
+			"barrier": "cpp",
+			"compare": "cpp",
+			"concepts": "cpp",
+			"coroutine": "cpp",
+			"source_location": "cpp",
+			"latch": "cpp",
+			"numbers": "cpp",
+			"semaphore": "cpp",
+			"stop_token": "cpp",
+			"syncstream": "cpp"
 		}
 	}
 }
