@@ -1,5 +1,4 @@
 // ABC269C
-// https://atcoder.jp/contests/abc269/tasks/abc269_c
 
 #include <bits/stdc++.h>
 using namespace std;

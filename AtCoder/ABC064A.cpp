@@ -1,5 +1,4 @@
-// ABC280
-//
+// ABC064A
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -11,18 +10,14 @@ const long long LINF = 1e18;
 int main(){
 
   // input
-  string s, t;
-  cin >> s >> t;
+  int r, g, b;
+  cin >> r >> g >> b;
 
   // solve
-  for (int i=0; i<(int)s.size(); i++){
-    if (s[i] != t[i]){
-      cout << i+1 << endl;
-      return 0;
-    }
-  }
+  int n = 100*r+10*g+b;
 
-  cout << t.size() << endl;
+  // output
+  cout << (n%4 == 0 ? "YES" : "NO") << endl;
   return 0;
-  
+
 }

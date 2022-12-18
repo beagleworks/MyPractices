@@ -1,5 +1,4 @@
-// ABC280
-//
+// ABC191B
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -11,18 +10,17 @@ const long long LINF = 1e18;
 int main(){
 
   // input
-  int n;
-  cin >> n;
+  int n, x;
+  cin >> n >> x;
 
-  // solve
-  long long sum = 0L;
-  for (int i=0; i<n; i++){
-    int s;
-    cin >> s;
-    cout << s-sum << endl;
-    sum = s;
+  // output
+  for (int i=0; i<n; i++) {
+    int a;
+    cin >> a;
+    if (a != x) cout << a << " ";
   }
 
+  cout << endl;
   return 0;
-  
+
 }

@@ -1,5 +1,4 @@
-// ABC280
-//
+// CODE-FESTIVAL-2016_qual_B_A
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -11,21 +10,18 @@ const long long LINF = 1e18;
 int main(){
 
   // input
-  int h, w;
-  cin >> h >> w;
+  string s;
+  cin >> s;
+  const string title = "CODEFESTIVAL2016";
 
   // solve
   int ans = 0;
-  for (int i=0; i<h; i++){
-    string s;
-    cin >> s;
-    for (auto c: s){
-      if (c == '#') ans++;
-    }
-  } 
+  for (int i=0; i<16; i++) {
+    if (s[i] != title[i]) ans++;
+  }
 
   // output
   cout << ans << endl;
   return 0;
-  
+
 }
