@@ -17,7 +17,7 @@
 	// }
 
 
-	"Print to console": {
+	"ABC first template": {
 		"scope": "cpp",
 		"prefix": "abc",
 		"body": [
@@ -26,9 +26,9 @@
 			"#include <bits/stdc++.h>",
 			"using namespace std;",
 			"#define ALL(a) (a).begin(), (a).end()",
-			"const int INF = 1e9;",
-			"const int MOD = 998244353;",
-			"const long long LINF = 1e18;",
+			"constexpr int INF = 1009876543;",
+			"constexpr long long LINF = 2211009988776543210LL;",
+			"constexpr int MOD = 998244353;",
 			"",
 			"int main(){",
 			"",
@@ -46,5 +46,14 @@
 			"}"
 		],
 		"description": "AtCoder"
-	}
+	},
+	"rep macro": {
+		"scope": "cpp",
+		"prefix": "rep",
+		"body": [
+			"#define rep(i, n) for (int i = 0; i < (int)(n); i++)",
+		],
+		"description": "AtCoder"
+	},
+
 }
