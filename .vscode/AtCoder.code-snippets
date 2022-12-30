@@ -55,5 +55,18 @@
 		],
 		"description": "AtCoder"
 	},
+	"debug": {
+		"scope": "cpp",
+		"prefix": "debug",
+		"body": [
+			"// for debug",
+			"#define COUT(a) cout << a << endl",
+			"#define VIEW(x) do{cout << \"--\" << #x << \"--\" << endl; view(x);}while(0)",
+			"template<typename T> void view(T e){COUT(e);}",
+			"template<typename T> void view(const vector<T>& v){for(const auto& e : v){ cout << e << \" \"; } cout << endl;}",
+			"template<typename T> void view(const vector<vector<T> >& vv){ for(const auto& v : vv){ view(v); } }"
+		],
+		"description": "AtCoder"
+	}
 
 }
