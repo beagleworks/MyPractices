@@ -93,6 +93,7 @@
 			"semaphore": "cpp",
 			"stop_token": "cpp",
 			"syncstream": "cpp"
-		}
+		},
+		"workbench.editor.pinnedTabSizing": "shrink"
 	}
 }
