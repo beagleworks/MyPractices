@@ -1,5 +1,4 @@
 // ABC271B
-// https://atcoder.jp/contests/abc271/tasks/abc271_b
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -10,21 +9,18 @@ const long long LINF = 1e18;
 
 int main(){
 
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-
   // input
   int n, q;
   cin >> n >> q;
 
   vector<vector<int>> v(n);
-  for (int i=0; i<q; i++){
+  for (int i=0; i<n; i++){
     int l;
     cin >> l;
     for(int j=0; j<l; j++){
       int x;
       cin >> x;
-      v[j].push_back(x);
+      v[i].push_back(x);
     }
   }
 
