@@ -1,4 +1,4 @@
-// ABC058C(ARC069A)
+// ABC058C(ARC071A)
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -10,22 +10,35 @@ constexpr int MOD = 998244353;
 int main(){
 
   // input
-  long long n, m;
-  cin >> n >> m;
+  int n;
+  cin >> n;
 
   // solve
-  long long ans = 0;
-  if (n*2 >= m) {
-    ans += m/2;
+  vector<map<char, int>> S(n);
+  for (int i=0; i<n; i++) {
+    string s;
+    cin >> s;
+    for (auto c : s) {
+      S[i][c]++;
+    }
   }
-  else {
-    ans += n;
-    m -= 2*n;
-    ans += m/4;
+
+  map<char, int> ans;
+  for (char c = 'a'; c <= 'z'; c++) {
+    ans[c] = INF;
+  }
+
+  for (int i=0; i<n; i++) {
+    for (char c = 'a'; c <= 'z'; c++) {
+      ans[c] = min(ans[c], S[i][c]);
+    }
   }
 
   // output
-  cout << ans << endl;
+  for (char c = 'a'; c <= 'z'; c++) {
+    if (ans[c] != INF) for (int i=0; i<ans[c]; i++) cout << c;
+  }
+  cout << endl;
   return 0;
 
 }
