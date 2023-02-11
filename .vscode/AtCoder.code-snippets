@@ -67,6 +67,15 @@
 			"template<typename T> void view(const vector<vector<T> >& vv){ for(const auto& v : vv){ view(v); } }"
 		],
 		"description": "AtCoder"
+	},
+	"input vector": {
+		"scope": "cpp",
+		"prefix": "vect",
+		"body": [
+			"vector<int> A(n);",
+			"for (auto &a : A) cin >> a;"
+		],
+		"description": "AtCoder"
 	}
 
 }
