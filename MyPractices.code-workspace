@@ -92,7 +92,8 @@
 			"numbers": "cpp",
 			"semaphore": "cpp",
 			"stop_token": "cpp",
-			"syncstream": "cpp"
+			"syncstream": "cpp",
+			"all": "cpp"
 		},
 		"workbench.editor.pinnedTabSizing": "shrink"
 	}

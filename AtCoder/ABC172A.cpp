@@ -1,4 +1,4 @@
-// ABC284E
+// ABC172A
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -10,20 +10,11 @@ constexpr int MOD = 998244353;
 int main(){
 
   // input
-  int n, m;
-  cin >> n >> m;
-
-  vector E(n, vector<int>());
-  for (int i=0; i<m; i++) {
-    int u, v;
-    cin >> u >> v;
-    u--, v--;
-    E[u].emplace_back(v);
-    E[v].emplace_back(u);
-  }
+  int a;
+  cin >> a;
 
   // solve
-  int ans;
+  int ans = a + a*a + a*a*a;
 
   // output
   cout << ans << endl;
