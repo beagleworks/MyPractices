@@ -1,4 +1,4 @@
-// ABC311E
+// ABC308A
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -10,14 +10,21 @@ constexpr int MOD = 998244353;
 int main(){
 
   // input
-  int n, m;
-  cin >> n >> m;
-
-  // solve
-  int ans;
+  int bs = 0;
+  for (int i=0; i<8; i++) {
+    int s;
+    cin >> s;
+    if (s % 25 == 0 && 100 <= s && s <= 675 && bs <= s) {
+      bs = s;
+    }
+    else {
+      cout << "No" << endl;
+      return 0;
+    }
+  }
 
   // output
-  cout << ans << endl;
+  cout << "Yes" << endl;
   return 0;
 
 }
