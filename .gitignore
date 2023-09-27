@@ -36,6 +36,7 @@ test*.*
 AtCoder/tempCodeRunnerFil*
 *.out
 _ahc*
+forme_*
 
 # Now testing
 AtCoder/incomplete/
